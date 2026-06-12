@@ -2,7 +2,6 @@
 title = 'Getting started'
 linkTitle = 'Getting started'
 description = 'Prepare your environment and verify that the basic toolchain works.'
-weight = 10
 +++
 
 ## Install the required software

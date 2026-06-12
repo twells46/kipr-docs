@@ -9,14 +9,6 @@
     {{ .Content }}
 
       <section>
-        <h2 id="docs-heading">
-          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-        </h2>
-
-        {{ with .Description }}
-          <p>{{ . }}</p>
-        {{ end }}
-
         {{ partial "page-list.html" . }}
       </section>
   </article>

@@ -11,18 +11,5 @@ lineNos = false
 startLevel = 2
 endLevel = 3
 
-[menus]
-[[menus.main]]
-name = 'Home'
-pageRef = '/'
-weight = 10
-
-[[menus.main]]
-name = 'Docs'
-pageRef = '/docs'
-weight = 20
-
-[[menus.main]]
-name = 'Reference'
-pageRef = '/docs/reference'
-weight = 30
+[params]
+wombatos_version = "31.2.0"

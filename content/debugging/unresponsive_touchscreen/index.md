@@ -1,8 +1,6 @@
 +++
 title = 'Unresponsive touchscreen'
-linkTitle = 'Unresponsive touchscreen'
 description = 'The touchscreen is not responding to your inputs'
-weight = 10
 +++
 
 This is a fairly common issue which can have a variety of causes.
@@ -24,6 +22,7 @@ This is exacerbated on certain versions of WombatOS in areas with a large number
 Stop touching it and wait.
 If this is the problem, it will eventually sort itself out and become responsive again.
 You can also check our [WombatOS page](https://www.kipr.org/kipr/hardware-software/kipr-wombat-firmware) and ensure you are running the latest version.
+Currently, the latest version is {{< wombatos_version >}}.
 
 ## Screen configuration
 
@@ -43,6 +42,7 @@ This is the icon that looks like a black box with the ">" character on it..
 It will probably prompt for a password.
 Type "botball" followed by the "Enter" key.
 It will not show anything as you type, this is normal and does not mean it is broken.
+
 ```sh
 sudo cp /home/kipr/wombat-os/configFiles/screen_settings/Default/99-calibration.conf /etc/X11/xorg.conf.d/
 ```
