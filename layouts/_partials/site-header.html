@@ -2,7 +2,7 @@
   <a href="{{ site.Home.RelPermalink }}">{{ site.Title }}</a>
 
   <nav aria-label="Main navigation">
-    {{ with site.GetPage "/docs" }}
+    {{ with site.GetPage "/" }}
       <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
     {{ end }}
   </nav>

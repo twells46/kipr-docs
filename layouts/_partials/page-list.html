@@ -1,4 +1,7 @@
-{{ with .Pages }}
+{{ $currentPage := . }}
+{{ $pages := where .Pages "RelPermalink" "ne" $currentPage.RelPermalink }}
+
+{{ with $pages }}
   <div class="page-list">
     {{ range .ByWeight }}
       <article>
