@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  background: #f7f7fb;
-  color: #20222a;
+  background: #fbfaf7;
+  color: #0a0a0a;
 }
 
 body > header {
@@ -11,13 +11,13 @@ body > header {
   justify-content: space-between;
   gap: 0.75rem 1.25rem;
   padding: 1rem 3rem;
-  background: #ffffff;
-  border-bottom: 1px solid #d9dce7;
-  box-shadow: 0 2px 10px rgba(32, 34, 42, 0.08);
+  background: #fffefa;
+  border-bottom: 1px solid #e3dbcf;
+  box-shadow: 0 2px 10px rgba(66, 50, 32, 0.06);
 }
 
 body > header > a {
-  color: #1e355d;
+  color: #5b2020;
   font-size: 1.25rem;
   font-weight: 700;
   text-decoration: none;
@@ -32,15 +32,15 @@ body > header nav {
 body > header nav a {
   display: inline-block;
   padding: 0.45rem 0.75rem;
-  color: #334057;
+  color: #4b4036;
   border-radius: 0.4rem;
   text-decoration: none;
 }
 
 body > header nav a:hover,
 body > header nav a:focus {
-  color: #0d5c63;
-  background: #e8f4f2;
+  color: #7a1d1d;
+  background: #f6efe3;
 }
 
 .docs-shell {
@@ -53,8 +53,8 @@ body > header nav a:focus {
 aside nav[aria-label="Documentation navigation"],
 article nav[aria-label="On this page"] {
   padding: 1rem;
-  background: #ffffff;
-  border: 1px solid #d9dce7;
+  background: #fffefa;
+  border: 1px solid #e3dbcf;
   border-radius: 0.5rem;
 }
 
@@ -62,7 +62,7 @@ aside nav[aria-label="Documentation navigation"] > a,
 article nav[aria-label="On this page"]::before {
   display: block;
   margin-bottom: 0.75rem;
-  color: #1e355d;
+  color: #5b2020;
   font-weight: 700;
   text-decoration: none;
 }
@@ -84,7 +84,7 @@ article nav li {
 
 aside nav a,
 article nav a {
-  color: #334057;
+  color: #4b4036;
   text-decoration: none;
 }
 
@@ -92,11 +92,11 @@ aside nav a:hover,
 aside nav a:focus,
 article nav a:hover,
 article nav a:focus {
-  color: #0d5c63;
+  color: #7a1d1d;
   text-decoration: underline;
 }
 
 aside nav a[aria-current="page"] {
-  color: #0d5c63;
+  color: #7a1d1d;
   font-weight: 700;
 }

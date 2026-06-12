@@ -1,4 +1,8 @@
 {{ define "main" }}
+  <div class="docs-shell">
+    <aside>
+      {{ partial "docs-nav.html" . }}
+    </aside>
   <article>
     <h1>{{ .Title }}</h1>
 
@@ -12,4 +16,5 @@
         {{ partial "page-list.html" . }}
       </section>
   </article>
+  </div>
 {{ end }}
