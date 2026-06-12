@@ -1,20 +1,21 @@
 {{ define "main" }}
-  <div class="docs-shell">
+  <div class="content-shell">
     <aside>
-      {{ partial "docs-nav.html" . }}
+      {{ partial "sidebar-nav.html" . }}
     </aside>
-  <article>
-    <h1>{{ .Title }}</h1>
 
-    {{ with .Description }}
-      <p>{{ . }}</p>
-    {{ end }}
+    <article>
+      <h1>{{ .Title }}</h1>
 
-    {{ .Content }}
+      {{ with .Description }}
+        <p>{{ . }}</p>
+      {{ end }}
+
+      {{ .Content }}
 
       <section>
         {{ partial "page-list.html" . }}
       </section>
-  </article>
+    </article>
   </div>
 {{ end }}

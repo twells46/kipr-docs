@@ -1,6 +1,7 @@
-baseURL = 'https://example.org/'
+baseURL = '/'
 locale = 'en-us'
 title = 'KIPR Docs'
+disableKinds = ['rss', 'sitemap', 'taxonomy', 'term']
 
 [markup.highlight]
 # emit CSS classes, not inline styles
@@ -12,4 +13,4 @@ startLevel = 2
 endLevel = 3
 
 [params]
-wombatos_version = "31.2.0"
+recommended_wombatos_version = "31.2.0"

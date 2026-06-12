@@ -1,0 +1,7 @@
+{{ with site.GetPage "/" }}
+  <nav aria-label="Site navigation">
+    <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+
+    {{ partial "sidebar-nav-children.html" (dict "section" . "current" $) }}
+  </nav>
+{{ end }}

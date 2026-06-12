@@ -1,7 +1,6 @@
 +++
 title = 'Debugging'
-description = 'Help with the various problems that arise in the course of human events'
+description = 'Troubleshooting steps for common KIPR controller and programming issues.'
 +++
 
-Don't worry, we're here to help!
 Each section is titled around problems common to KIPR controllers and programming interfaces.

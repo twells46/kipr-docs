@@ -1,3 +1,7 @@
+* {
+  font-family: sans-serif;
+}
+
 body {
   margin: 0;
   background: #fbfaf7;
@@ -43,14 +47,18 @@ body > header nav a:focus {
   background: #f6efe3;
 }
 
-.docs-shell {
+main {
+  margin: 0 3em;
+}
+
+.content-shell {
   display: grid;
   grid-template-columns: minmax(12rem, 16rem) 1fr;
   gap: 2rem;
   align-items: start;
 }
 
-aside nav[aria-label="Documentation navigation"],
+aside nav[aria-label="Site navigation"],
 article nav[aria-label="On this page"] {
   padding: 1rem;
   background: #fffefa;
@@ -58,7 +66,7 @@ article nav[aria-label="On this page"] {
   border-radius: 0.5rem;
 }
 
-aside nav[aria-label="Documentation navigation"] > a,
+aside nav[aria-label="Site navigation"] > a,
 article nav[aria-label="On this page"]::before {
   display: block;
   margin-bottom: 0.75rem;

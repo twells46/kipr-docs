@@ -9,7 +9,7 @@
         </a>
 
         {{ if .IsSection }}
-          {{ partial "docs-nav-children.html" (dict "section" . "current" $current) }}
+          {{ partial "sidebar-nav-children.html" (dict "section" . "current" $current) }}
         {{ end }}
       </li>
     {{ end }}
