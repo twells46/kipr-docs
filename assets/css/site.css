@@ -108,3 +108,12 @@ aside nav a[aria-current="page"] {
   color: #7a1d1d;
   font-weight: 700;
 }
+
+.cl {
+  font-family: monospace;
+  background-color: #0a0a0a;
+  color: #fbfaf7;
+  padding: 10px;
+  border: solid #7a1d1d;
+  border-radius: 5px;
+}

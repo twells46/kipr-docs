@@ -43,8 +43,8 @@ The simplest solution is to back up your programs and reflash the Wombat, as des
 This is the icon that looks like a black box with the ">" character on it.
 1. Type the command below *exactly* as it appears.
 It will probably prompt for a password.
-Type "botball" followed by the "Enter" key.
 It will not show anything as you type, this is normal and does not mean it is broken.
+Type "botball" followed by the "Enter" key.
 
 ```sh
 sudo cp /home/kipr/wombat-os/configFiles/screen_settings/Default/99-calibration.conf /etc/X11/xorg.conf.d/
