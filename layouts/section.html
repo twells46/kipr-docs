@@ -1,0 +1,21 @@
+{{ define "main" }}
+  <div class="docs-shell">
+    <aside>
+      {{ partial "docs-nav.html" . }}
+    </aside>
+
+    <article>
+      {{ partial "breadcrumbs.html" . }}
+
+      <h1>{{ .Title }}</h1>
+
+      {{ with .Description }}
+        <p>{{ . }}</p>
+      {{ end }}
+
+      {{ .Content }}
+
+      {{ partial "page-list.html" . }}
+    </article>
+  </div>
+{{ end }}

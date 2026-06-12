@@ -1,0 +1,15 @@
+{{ with .Pages }}
+  <div class="page-list">
+    {{ range .ByWeight }}
+      <article>
+        <h2>
+          <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+        </h2>
+
+        {{ with .Description }}
+          <p>{{ . }}</p>
+        {{ end }}
+      </article>
+    {{ end }}
+  </div>
+{{ end }}

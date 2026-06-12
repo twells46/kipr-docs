@@ -1,0 +1,25 @@
+{{ define "main" }}
+  <article>
+    <h1>{{ .Title }}</h1>
+
+    {{ with .Description }}
+      <p>{{ . }}</p>
+    {{ end }}
+
+    {{ .Content }}
+
+    {{ with site.GetPage "/docs" }}
+      <section aria-labelledby="docs-heading">
+        <h2 id="docs-heading">
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </h2>
+
+        {{ with .Description }}
+          <p>{{ . }}</p>
+        {{ end }}
+
+        {{ partial "page-list.html" . }}
+      </section>
+    {{ end }}
+  </article>
+{{ end }}

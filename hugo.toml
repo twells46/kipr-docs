@@ -1,0 +1,28 @@
+baseURL = 'https://example.org/'
+locale = 'en-us'
+title = 'KIPR Docs'
+
+[markup.highlight]
+# emit CSS classes, not inline styles
+noClasses = false
+lineNos = false
+
+[markup.tableOfContents]
+startLevel = 2
+endLevel = 3
+
+[menus]
+[[menus.main]]
+name = 'Home'
+pageRef = '/'
+weight = 10
+
+[[menus.main]]
+name = 'Docs'
+pageRef = '/docs'
+weight = 20
+
+[[menus.main]]
+name = 'Reference'
+pageRef = '/docs/reference'
+weight = 30
