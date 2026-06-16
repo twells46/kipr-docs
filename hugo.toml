@@ -12,5 +12,3 @@ lineNos = false
 startLevel = 2
 endLevel = 3
 
-[params]
-recommended_wombatos_version = "31.2.0"

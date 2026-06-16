@@ -1,3 +1,6 @@
+:root {
+  --radius: 0.4em;
+}
 * {
   font-family: sans-serif;
 }
@@ -37,7 +40,7 @@ body > header nav a {
   display: inline-block;
   padding: 0.45rem 0.75rem;
   color: #4b4036;
-  border-radius: 0.4rem;
+  border-radius: var(--radius);
   text-decoration: none;
 }
 
@@ -116,4 +119,51 @@ aside nav a[aria-current="page"] {
   padding: 10px;
   border: solid #7a1d1d;
   border-radius: 5px;
+}
+
+/* Github-style callouts */
+blockquote.alert {
+  border-width: 0.2em;
+  border-style: solid;
+  border-radius: 0.5em;
+  padding: 0px;
+  overflow: hidden;
+  p.alert-heading {
+    background-color: #ffd9d9;
+    margin: 0px;
+    padding: 0.2em;
+  }
+  p {
+    margin: 1em;
+  }
+}
+blockquote.alert.alert-caution {
+  border-color: red;
+  p.alert-heading {
+    background-color: #ffd9d9;
+  }
+}
+blockquote.alert.alert-important {
+  border-color: purple;
+  p.alert-heading {
+    background-color: #c8b0c8;
+  }
+}
+blockquote.alert.alert-note {
+  border-color: blue;
+  p.alert-heading {
+    background-color: #e1e1ff;
+  }
+}
+blockquote.alert.alert-tip {
+  border-color: green;
+  p.alert-heading {
+    background-color: #b8d0b8;
+  }
+}
+blockquote.alert.alert-warning {
+  border-color: yellow;
+  p.alert-heading {
+    background-color: #ffffeb;
+  }
 }
