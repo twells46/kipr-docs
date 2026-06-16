@@ -13,9 +13,9 @@
         <p>{{ . }}</p>
       {{ end }}
 
-      {{ with .TableOfContents }}
+      {{ if (in .TableOfContents "<li>") }}
         <nav aria-label="On this page">
-          {{ . }}
+          {{ .TableOfContents }}
         </nav>
       {{ end }}
 

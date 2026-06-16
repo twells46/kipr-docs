@@ -23,11 +23,6 @@ Next, check that you are visiting the correct IP address.
 
 ## IDE stuck loading forever
 
-1. Update
-2. Try another device (phone, etc.).
-3. If phone works, you school is probably blocking the IP address. Submit a request for them to unblock it.
-4. Go outside.
-
 If you are on a version before {{<recommended_wombatos_version>}} and are in a crowded area with many controllers, you may be affected by signal congestion.
 Try moving to a less crowded room or even stepping outside to allow the IDE to load.
 You can permanently solve this problem by updating the the latest version with the [instructions here](https://www.kipr.org/kipr/hardware-software/kipr-wombat-firmware).
