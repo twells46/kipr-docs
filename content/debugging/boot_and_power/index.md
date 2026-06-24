@@ -3,12 +3,14 @@ title = 'Boot and power'
 description = "Controller won't turn on or turns off randomly"
 +++
 
+![Debugging flowchart](flowchart.svg)
+
 ## Diagnosing
 
 Boot and power issues can be divided into two categories depending on whether the board is receiving power.
 To distinguish, turn your controller's power switch to on and look for the red light in the bottom right corner.
 
-(Add image here).
+![Image of KIPR controller with red power indicator on](red_light.webp)
 
 ## Red light on
 

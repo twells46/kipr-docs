@@ -15,11 +15,13 @@ First, navigate the BotUI *About* page and check if your controller displays an 
 
 First, verify that your computer is connected to the correct network.
 
-(image with matching SSIDs)
+Next, check that you are visiting the correct address.
+You must always include *both* the displayed IP address followed by a colon and the port:
 
-Next, check that you are visiting the correct IP address.
+![192.168.125.1:8888](ip_format_guide.webp)
 
-(image with matching IP)
+If your IP address is not empty *and* is not `192.168.125.1`, then you are either in ethernet mode or client mode.
+Unplug any ethernet cables that you aren't using, then go to *Settings > Advanced > Network* and ensure the dropdown on the left says "AP Mode."
 
 ## IDE stuck loading forever
 
