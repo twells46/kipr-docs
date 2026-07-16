@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="760"
+   height="930"
+   viewBox="0 0 760 930"
+   role="img"
+   aria-labelledby="title desc"
    version="1.1"
-   id="svg1"
-   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   id="svg40"
    sodipodi:docname="flowchart.svg"
+   inkscape:export-filename="flow.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
-     id="namedview1"
+     id="namedview40"
      pagecolor="#ffffff"
      bordercolor="#000000"
      borderopacity="0.25"
@@ -22,293 +25,530 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:document-units="mm"
-     inkscape:zoom="1.648078"
-     inkscape:cx="174.74901"
-     inkscape:cy="186.58097"
+     inkscape:zoom="1.4066103"
+     inkscape:cx="345.86694"
+     inkscape:cy="691.37842"
      inkscape:window-width="1990"
      inkscape:window-height="1166"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="svg40" />
+  <title
+     id="title">Boot and power troubleshooting flowchart</title>
+  <desc
+     id="desc">A troubleshooting flowchart for a KIPR controller that will not turn on or turns off randomly. Check the red power light, then follow the powered or unpowered branch.</desc>
   <defs
      id="defs1">
+    <style
+       id="style1">
+      .bg { fill: #ffffff; }
+      .frame { fill: #f8fafc; stroke: #334155; stroke-width: 1.5; }
+      .header { fill: #e2e8f0; stroke: #334155; stroke-width: 1.8; }
+      .start { fill: #e0f2fe; stroke: #0369a1; stroke-width: 2; }
+      .action { fill: #ffffff; stroke: #334155; stroke-width: 1.8; }
+      .decision { fill: #f8fafc; stroke: #334155; stroke-width: 2; }
+      .result { fill: #dcfce7; stroke: #166534; stroke-width: 1.8; }
+      .warning { fill: #fef3c7; stroke: #b45309; stroke-width: 1.6; }
+      .note { fill: #eff6ff; stroke: #1d4ed8; stroke-width: 1.4; }
+      .support { fill: #fee2e2; stroke: #b91c1c; stroke-width: 2; }
+      .titleText { font: 700 24px system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, Arial, sans-serif; fill: #0f172a; }
+      .subText { font: 400 14px system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, Arial, sans-serif; fill: #334155; }
+      .boxTitle { font: 700 15px system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, Arial, sans-serif; fill: #0f172a; }
+      .boxText { font: 400 14px system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, Arial, sans-serif; fill: #0f172a; }
+      .smallText { font: 400 12px system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, Arial, sans-serif; fill: #334155; }
+      .warnText { font: 400 12px system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, Arial, sans-serif; fill: #7c2d12; }
+      .supportText { font: 400 13px system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, Arial, sans-serif; fill: #7f1d1d; }
+      .resultText { font: 700 13px system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, Arial, sans-serif; fill: #166534; }
+      .labelText { font: 700 12px system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, Arial, sans-serif; fill: #475569; }
+      .conn { stroke: #475569; stroke-width: 2.2; fill: none; }
+      a:hover .action { fill: #f8fafc; stroke: #0369a1; }
+    </style>
     <marker
-       style="overflow:visible"
-       id="marker10"
-       refX="0"
-       refY="0"
-       orient="auto-start-reverse"
-       inkscape:stockid="Triangle arrow"
-       markerWidth="1"
-       markerHeight="1"
-       viewBox="0 0 1 1"
-       inkscape:isstock="true"
-       inkscape:collect="always"
-       preserveAspectRatio="xMidYMid">
+       id="arrow"
+       markerWidth="10"
+       markerHeight="10"
+       refX="7.5"
+       refY="5"
+       orient="auto"
+       markerUnits="strokeWidth">
       <path
-         transform="scale(0.5)"
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
-         d="M 5.77,0 -2.88,5 V -5 Z"
-         id="path10" />
-    </marker>
-    <marker
-       style="overflow:visible"
-       id="Triangle"
-       refX="0"
-       refY="0"
-       orient="auto-start-reverse"
-       inkscape:stockid="Triangle arrow"
-       markerWidth="1"
-       markerHeight="1"
-       viewBox="0 0 1 1"
-       inkscape:isstock="true"
-       inkscape:collect="always"
-       preserveAspectRatio="xMidYMid">
-      <path
-         transform="scale(0.5)"
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
-         d="M 5.77,0 -2.88,5 V -5 Z"
-         id="path135" />
-    </marker>
-    <marker
-       style="overflow:visible"
-       id="Triangle-7"
-       refX="0"
-       refY="0"
-       orient="auto-start-reverse"
-       inkscape:stockid="Triangle arrow"
-       markerWidth="1"
-       markerHeight="1"
-       viewBox="0 0 1 1"
-       inkscape:isstock="true"
-       inkscape:collect="always"
-       preserveAspectRatio="xMidYMid">
-      <path
-         transform="scale(0.5)"
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
-         d="M 5.77,0 -2.88,5 V -5 Z"
-         id="path135-5" />
-    </marker>
-    <marker
-       style="overflow:visible"
-       id="marker10-1"
-       refX="0"
-       refY="0"
-       orient="auto-start-reverse"
-       inkscape:stockid="Triangle arrow"
-       markerWidth="1"
-       markerHeight="1"
-       viewBox="0 0 1 1"
-       inkscape:isstock="true"
-       inkscape:collect="always"
-       preserveAspectRatio="xMidYMid">
-      <path
-         transform="scale(0.5)"
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
-         d="M 5.77,0 -2.88,5 V -5 Z"
-         id="path10-2" />
-    </marker>
-    <marker
-       style="overflow:visible"
-       id="marker10-7"
-       refX="0"
-       refY="0"
-       orient="auto-start-reverse"
-       inkscape:stockid="Triangle arrow"
-       markerWidth="1"
-       markerHeight="1"
-       viewBox="0 0 1 1"
-       inkscape:isstock="true"
-       inkscape:collect="always"
-       preserveAspectRatio="xMidYMid">
-      <path
-         transform="scale(0.5)"
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
-         d="M 5.77,0 -2.88,5 V -5 Z"
-         id="path10-5" />
-    </marker>
-    <marker
-       style="overflow:visible"
-       id="marker10-7-7"
-       refX="0"
-       refY="0"
-       orient="auto-start-reverse"
-       inkscape:stockid="Triangle arrow"
-       markerWidth="1"
-       markerHeight="1"
-       viewBox="0 0 1 1"
-       inkscape:isstock="true"
-       inkscape:collect="always"
-       preserveAspectRatio="xMidYMid">
-      <path
-         transform="scale(0.5)"
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
-         d="M 5.77,0 -2.88,5 V -5 Z"
-         id="path10-5-3" />
+         d="M 0,0 10,5 0,10 Z"
+         fill="#475569"
+         id="path1" />
     </marker>
   </defs>
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1">
+  <rect
+     class="header"
+     x="20"
+     y="16"
+     width="720"
+     height="88"
+     rx="14"
+     id="rect2" />
+  <text
+     class="titleText"
+     x="380"
+     y="50"
+     text-anchor="middle"
+     id="text2">Boot and power</text>
+  <text
+     class="subText"
+     x="380"
+     y="76"
+     text-anchor="middle"
+     id="text3">Controller won't turn on or turns off randomly</text>
+  <rect
+     class="frame"
+     x="80"
+     y="122"
+     width="600"
+     height="72"
+     rx="12"
+     id="rect3" />
+  <text
+     class="boxText"
+     x="380"
+     y="151"
+     text-anchor="middle"
+     id="text4">Turn the controller's power switch on.</text>
+  <text
+     class="smallText"
+     x="380"
+     y="174"
+     text-anchor="middle"
+     id="text5">Look for the red power light in the bottom-right corner.</text>
+  <rect
+     class="start"
+     x="160"
+     y="216"
+     width="440"
+     height="56"
+     rx="18"
+     id="rect5" />
+  <text
+     class="boxTitle"
+     x="380"
+     y="249"
+     text-anchor="middle"
+     id="text6">Controller does not boot or shuts off unexpectedly</text>
+  <line
+     class="conn"
+     x1="380"
+     y1="272"
+     x2="380"
+     y2="304"
+     marker-end="url(#arrow)"
+     id="line6" />
+  <rect
+     class="decision"
+     x="200"
+     y="310"
+     width="360"
+     height="70"
+     rx="18"
+     id="rect6" />
+  <circle
+     cx="270"
+     cy="338"
+     r="7"
+     fill="#dc2626"
+     stroke="#991b1b"
+     stroke-width="1.5"
+     id="circle6" />
+  <text
+     class="boxTitle"
+     x="390"
+     y="343"
+     text-anchor="middle"
+     id="text7">Is the red power light on?</text>
+  <text
+     class="smallText"
+     x="380"
+     y="364"
+     text-anchor="middle"
+     id="text8">This separates boot problems from power-delivery problems.</text>
+  <path
+     class="conn"
+     d="M 380 380 V 406 H 200 V 424"
+     marker-end="url(#arrow)"
+     id="path8" />
+  <path
+     class="conn"
+     d="M 380 406 H 560 V 424"
+     marker-end="url(#arrow)"
+     id="path9" />
+  <text
+     class="labelText"
+     x="286"
+     y="400"
+     text-anchor="middle"
+     id="text9">Yes</text>
+  <text
+     class="labelText"
+     x="474"
+     y="400"
+     text-anchor="middle"
+     id="text10">No</text>
+  <rect
+     class="note"
+     x="40"
+     y="430"
+     width="320"
+     height="68"
+     rx="13"
+     id="rect10" />
+  <circle
+     cx="70"
+     cy="454"
+     r="7"
+     fill="#dc2626"
+     stroke="#991b1b"
+     stroke-width="1.5"
+     id="circle10" />
+  <text
+     class="boxTitle"
+     x="200"
+     y="457"
+     text-anchor="middle"
+     id="text11">Red light on</text>
+  <text
+     class="smallText"
+     x="200"
+     y="479"
+     text-anchor="middle"
+     id="text12">The board is properly receiving power.</text>
+  <line
+     class="conn"
+     x1="200"
+     y1="498"
+     x2="200"
+     y2="514"
+     marker-end="url(#arrow)"
+     id="line12" />
+  <a
+     href="/docs/backup_programs/"
+     target="_top"
+     id="a14">
+    <rect
+       class="action"
+       x="50"
+       y="520"
+       width="300"
+       height="60"
+       rx="14"
+       id="rect12" />
     <text
-       xml:space="preserve"
-       style="font-size:3.175px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:0.264583"
-       x="61.647568"
-       y="28.736757"
-       id="text1"><tspan
-         sodipodi:role="line"
-         id="tspan1"
-         style="stroke-width:0.264583"
-         x="61.647568"
-         y="28.736757">Power indicator (red light in bottom left corner) on?</tspan></text>
+       class="boxTitle"
+       x="200"
+       y="546"
+       text-anchor="middle"
+       id="text13">1. Back up your programs</text>
     <text
-       xml:space="preserve"
-       style="font-size:3.175px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:0.264583"
-       x="52.817837"
-       y="55.38649"
-       id="text2"><tspan
-         sodipodi:role="line"
-         id="tspan2"
-         style="stroke-width:0.264583"
-         x="52.817837"
-         y="55.38649">Write fresh firmware image</tspan></text>
+       class="smallText"
+       x="200"
+       y="566"
+       text-anchor="middle"
+       id="text14">Save your work before changing the SD card.</text>
+  </a>
+  <line
+     class="conn"
+     x1="200"
+     y1="580"
+     x2="200"
+     y2="604"
+     marker-end="url(#arrow)"
+     id="line14" />
+  <a
+     href="/docs/firmware_reflash/"
+     target="_top"
+     id="a17">
+    <rect
+       class="action"
+       x="50"
+       y="610"
+       width="300"
+       height="80"
+       rx="14"
+       id="rect14" />
     <text
-       xml:space="preserve"
-       style="font-size:3.175px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:0.264583"
-       x="74.009186"
-       y="90.269699"
-       id="text3"><tspan
-         sodipodi:role="line"
-         id="tspan3"
-         style="stroke-width:0.264583"
-         x="74.009186"
-         y="90.269699">Contact KIPR</tspan></text>
+       class="boxTitle"
+       x="200"
+       y="638"
+       text-anchor="middle"
+       id="text15">2. Write a fresh image to the SD card</text>
     <text
-       xml:space="preserve"
-       style="font-size:3.175px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:0.264583"
-       x="107.7227"
-       y="55.386196"
-       id="text4"><tspan
-         sodipodi:role="line"
-         id="tspan4"
-         style="stroke-width:0.264583"
-         x="107.7227"
-         y="55.386196">Try fresh, fully charged battery</tspan></text>
+       class="boxText"
+       x="200"
+       y="660"
+       text-anchor="middle"
+       id="text16">Reflash the controller firmware.</text>
     <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:0.264583"
-       x="76.096214"
-       y="15.090811"
-       id="text5"><tspan
-         sodipodi:role="line"
-         id="tspan5"
-         style="font-size:5.64444px;stroke-width:0.264583"
-         x="76.096214"
-         y="15.090811">Boot and Power</tspan></text>
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Triangle)"
-       d="m 80.430809,30.342162 v 20.54919"
-       id="path5"
-       inkscape:connector-type="polyline"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Triangle-7)"
-       d="M 115.18775,30.342 V 50.89119"
-       id="path5-6"
-       inkscape:connector-type="polyline"
-       inkscape:connector-curvature="0" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:sans-serif;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:0.264583"
-       x="66.463783"
-       y="41.580002"
-       id="text6"><tspan
-         sodipodi:role="line"
-         id="tspan6"
-         style="stroke-width:0.264583"
-         x="66.463783"
-         y="41.580002">Yes</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:sans-serif;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:0.264583"
-       x="84.271378"
-       y="79.10511"
-       id="text6-2"><tspan
-         sodipodi:role="line"
-         id="tspan6-6"
-         style="stroke-width:0.264583"
-         x="84.271378"
-         y="79.10511">Yes</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:sans-serif;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:0.264583"
-       x="120.72649"
-       y="41.258919"
-       id="text7"><tspan
-         sodipodi:role="line"
-         id="tspan7"
-         style="stroke-width:0.264583"
-         x="120.72649"
-         y="41.258919">No</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:sans-serif;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:0.264583"
-       x="107.97145"
-       y="79.104759"
-       id="text7-2"><tspan
-         sodipodi:role="line"
-         id="tspan7-0"
-         style="stroke-width:0.264583"
-         x="107.97145"
-         y="79.104759">No</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:sans-serif;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:0.264583"
-       x="94.076759"
-       y="70.958916"
-       id="text8"><tspan
-         sodipodi:role="line"
-         id="tspan8"
-         style="stroke-width:0.264583"
-         x="94.076759"
-         y="70.958916">Fixed?</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:sans-serif;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:0.264583"
-       x="104.83297"
-       y="90.384323"
-       id="text9"><tspan
-         sodipodi:role="line"
-         id="tspan9"
-         style="stroke-width:0.264583"
-         x="104.83297"
-         y="90.384323">Finished</tspan></text>
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker10)"
-       d="M 94.397836,72.724864 88.939458,86.531349"
-       id="path9"
-       inkscape:connector-type="polyline"
-       inkscape:connector-curvature="0" />
-    <path
-       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker10-7)"
-       d="m 108.52541,56.51027 -4.97676,9.792973"
-       id="path9-2"
-       inkscape:connector-type="polyline"
-       inkscape:connector-curvature="0" />
-    <path
-       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker10-7-7)"
-       d="m 89.089936,56.509935 4.97676,9.792973"
-       id="path9-2-2"
-       inkscape:connector-type="polyline"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker10-1)"
-       d="m 102.80068,72.455551 5.45838,13.806485"
-       id="path9-9"
-       inkscape:connector-type="polyline"
-       inkscape:connector-curvature="0" />
-  </g>
+       class="smallText"
+       x="200"
+       y="678"
+       text-anchor="middle"
+       id="text17">Then test the controller again.</text>
+  </a>
+  <line
+     class="conn"
+     x1="200"
+     y1="690"
+     x2="200"
+     y2="714"
+     marker-end="url(#arrow)"
+     id="line17" />
+  <rect
+     class="decision"
+     x="45"
+     y="720"
+     width="200"
+     height="64"
+     rx="17"
+     id="rect17" />
+  <text
+     class="boxTitle"
+     x="145"
+     y="748"
+     text-anchor="middle"
+     id="text18">Problem fixed?</text>
+  <text
+     class="smallText"
+     x="145"
+     y="768"
+     text-anchor="middle"
+     id="text19">Try powering on once more.</text>
+  <line
+     class="conn"
+     x1="246"
+     y1="752"
+     x2="274.01755"
+     y2="752"
+     marker-end="url(#arrow)"
+     id="line19" />
+  <text
+     class="labelText"
+     x="268.6001"
+     y="741"
+     text-anchor="middle"
+     id="text20"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', 'Segoe UI', Roboto, Arial, sans-serif">Yes</text>
+  <rect
+     class="result"
+     x="281.6001"
+     y="733"
+     width="85"
+     height="38"
+     rx="19"
+     id="rect20" />
+  <text
+     class="resultText"
+     x="324.1001"
+     y="757"
+     text-anchor="middle"
+     id="text21"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:13px;line-height:normal;font-family:system-ui, '-apple-system', 'Segoe UI', Roboto, Arial, sans-serif">Resolved</text>
+  <line
+     class="conn"
+     x1="145"
+     y1="784"
+     x2="145"
+     y2="824"
+     marker-end="url(#arrow)"
+     id="line21" />
+  <text
+     class="labelText"
+     x="159"
+     y="806"
+     id="text22">No</text>
+  <rect
+     class="support"
+     x="50"
+     y="830"
+     width="300"
+     height="82"
+     rx="18"
+     id="rect22" />
+  <text
+     class="boxTitle"
+     x="200"
+     y="857"
+     text-anchor="middle"
+     id="text23">Possible screen hardware issue</text>
+  <text
+     class="supportText"
+     x="200"
+     y="880"
+     text-anchor="middle"
+     id="text24">Email support@kipr.org so the support team</text>
+  <text
+     class="supportText"
+     x="200"
+     y="898"
+     text-anchor="middle"
+     id="text25">can create a repair ticket.</text>
+  <rect
+     class="note"
+     x="400"
+     y="430"
+     width="320"
+     height="68"
+     rx="13"
+     id="rect25" />
+  <circle
+     cx="430"
+     cy="454"
+     r="7"
+     fill="#ffffff"
+     stroke="#94a3b8"
+     stroke-width="2"
+     id="circle25" />
+  <text
+     class="boxTitle"
+     x="560"
+     y="457"
+     text-anchor="middle"
+     id="text26">Red light off</text>
+  <text
+     class="smallText"
+     x="560"
+     y="479"
+     text-anchor="middle"
+     id="text27">Start by checking the battery.</text>
+  <line
+     class="conn"
+     x1="560"
+     y1="499.50266"
+     x2="560"
+     y2="581.32568"
+     marker-end="url(#arrow)"
+     id="line27"
+     style="stroke-width:2.2;stroke-dasharray:none" />
+  <rect
+     class="action"
+     x="410"
+     y="583.19922"
+     width="300"
+     height="80"
+     rx="14"
+     id="rect27" />
+  <text
+     class="boxTitle"
+     x="559.99994"
+     y="612.19922"
+     text-anchor="middle"
+     id="text28"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:15px;line-height:normal;font-family:system-ui, '-apple-system', 'Segoe UI', Roboto, Arial, sans-serif">Try a fully charged battery</text>
+  <text
+     class="boxText"
+     x="559.99994"
+     y="634.19922"
+     text-anchor="middle"
+     id="text29"
+     style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:14px;line-height:normal;font-family:system-ui, '-apple-system', 'Segoe UI', Roboto, Arial, sans-serif">Confirm the battery is fully charged,</text>
+  <text
+     class="smallText"
+     x="559.99994"
+     y="652.19922"
+     text-anchor="middle"
+     id="text30"
+     style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', 'Segoe UI', Roboto, Arial, sans-serif">then test the controller again.</text>
+  <line
+     class="conn"
+     x1="560"
+     y1="662.68359"
+     x2="560"
+     y2="718.43188"
+     marker-end="url(#arrow)"
+     id="line30"
+     style="stroke-width:1.52867;stroke-dasharray:none" />
+  <rect
+     class="decision"
+     x="405"
+     y="720"
+     width="200"
+     height="64"
+     rx="17"
+     id="rect32" />
+  <text
+     class="boxTitle"
+     x="505"
+     y="748"
+     text-anchor="middle"
+     id="text33">Problem fixed?</text>
+  <text
+     class="smallText"
+     x="505"
+     y="768"
+     text-anchor="middle"
+     id="text34">Check the red light again.</text>
+  <line
+     class="conn"
+     x1="605"
+     y1="752"
+     x2="631.9071"
+     y2="752"
+     marker-end="url(#arrow)"
+     id="line34" />
+  <text
+     class="labelText"
+     x="625.69965"
+     y="741"
+     text-anchor="middle"
+     id="text35"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', 'Segoe UI', Roboto, Arial, sans-serif">Yes</text>
+  <rect
+     class="result"
+     x="638.69965"
+     y="733"
+     width="85"
+     height="38"
+     rx="19"
+     id="rect35" />
+  <text
+     class="resultText"
+     x="681.19965"
+     y="757"
+     text-anchor="middle"
+     id="text36"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:13px;line-height:normal;font-family:system-ui, '-apple-system', 'Segoe UI', Roboto, Arial, sans-serif">Resolved</text>
+  <line
+     class="conn"
+     x1="505"
+     y1="784"
+     x2="505"
+     y2="824"
+     marker-end="url(#arrow)"
+     id="line36" />
+  <text
+     class="labelText"
+     x="519"
+     y="806"
+     id="text37">No</text>
+  <rect
+     class="support"
+     x="410"
+     y="830"
+     width="300"
+     height="82"
+     rx="18"
+     id="rect37" />
+  <text
+     class="boxTitle"
+     x="560"
+     y="857"
+     text-anchor="middle"
+     id="text38">Controller power-system issue</text>
+  <text
+     class="supportText"
+     x="560"
+     y="880"
+     text-anchor="middle"
+     id="text39">Email support@kipr.org so the support team</text>
+  <text
+     class="supportText"
+     x="560"
+     y="898"
+     text-anchor="middle"
+     id="text40">can create a repair ticket.</text>
 </svg>

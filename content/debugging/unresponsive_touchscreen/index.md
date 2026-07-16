@@ -3,6 +3,8 @@ title = 'Unresponsive touchscreen'
 description = 'The touchscreen is not responding to your inputs'
 +++
 
+![flowchart](flow.min.svg)
+
 This is a fairly common issue which can have a variety of causes.
 
 ## Overtightened case

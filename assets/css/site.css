@@ -112,6 +112,10 @@ aside nav a[aria-current="page"] {
   font-weight: 700;
 }
 
+article {
+    width: 60%;
+}
+
 .cl {
   font-family: monospace;
   background-color: #0a0a0a;

@@ -3,7 +3,7 @@ title = 'Boot and power'
 description = "Controller won't turn on or turns off randomly"
 +++
 
-![Debugging flowchart](flowchart.svg)
+![Debugging flowchart](flow.svg)
 
 ## Diagnosing
 
@@ -15,17 +15,17 @@ To distinguish, turn your controller's power switch to on and look for the red l
 ## Red light on
 
 If the red light is on, the board is properly receiving power.
-In most cases, this can be fixed by reflashing the SD card.
-You can find the instruction [here](https://www.kipr.org/kipr/hardware-software/kipr-wombat-firmware).
+
+1. [Back up your programs](/docs/backup_programs/).
+1. [Write a fresh image to the SD card](/docs/firmware_reflash/).
 
 If this doesn't fix the problem, then it is most likely an issue with the screen hardware.
 In this case, {{< support_email_callout >}}
 
 ## Red light off
 
-First, try a fully charged battery.
-See the battery page to check if your battery is fully charged.
-_**TODO**_ Add battery page.
+Try a fully charged battery.
+You can check the charge level by the lights on the charger included with your kit.
 
 If this doesn't fix the problem, the problem lies somewhere in the controller's power system.
 In this case, {{< support_email_callout >}}

@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+width="735.03003"
+height="1394.6914"
+viewBox="0 0 735.03003 1394.6914"
+role="img"
+aria-labelledby="title desc"
+version="1.1"
+id="svg64"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:svg="http://www.w3.org/2000/svg">
+<title
+id="title">I can't connect to the controller — troubleshooting flowchart</title>
+<desc
+id="desc">Flowchart for diagnosing controller connection problems based on whether BotUI About shows a non-empty or empty SSID and IP address.</desc>
+<defs
+id="defs1">
+<marker
+id="arrow"
+viewBox="0 0 10 10"
+refX="9"
+refY="5"
+markerWidth="8"
+markerHeight="8"
+orient="auto-start-reverse">
+<path
+d="M 0,0 10,5 0,10 Z"
+fill="#3f4a5a"
+id="path1" />
+</marker>
+<style
+id="style1">
+.bg { fill: #ffffff; }
+.title { font: 700 22px Arial, Helvetica, sans-serif; fill: #172033; }
+.subtitle { font: 14px Arial, Helvetica, sans-serif; fill: #4d5a6b; }
+.box { fill: #f7f9fc; stroke: #617089; stroke-width: 1.4; rx: 12; }
+.action { fill: #eef6ff; stroke: #3e78b2; stroke-width: 1.5; rx: 12; }
+.fix { fill: #effaf2; stroke: #3d8b55; stroke-width: 1.5; rx: 12; }
+.warn { fill: #fff8e8; stroke: #bf7b18; stroke-width: 1.5; rx: 12; }
+.decision { fill: #fff4f4; stroke: #b84e55; stroke-width: 1.5; }
+.terminal { fill: #172033; stroke: #172033; stroke-width: 1.5; rx: 18; }
+.small { font: 12px Arial, Helvetica, sans-serif; fill: #5b6572; }
+.text { font: 13.5px Arial, Helvetica, sans-serif; fill: #1d2737; }
+.terminalText { font: 700 13.5px Arial, Helvetica, sans-serif; fill: #ffffff; }
+.label { font: 700 12px Arial, Helvetica, sans-serif; fill: #3f4a5a; }
+.line { fill: none; stroke: #3f4a5a; stroke-width: 1.6; marker-end: url(#arrow); }
+.lineNoArrow { fill: none; stroke: #3f4a5a; stroke-width: 1.6; }
+.dash { fill: none; stroke: #617089; stroke-width: 1.4; stroke-dasharray: 5 4; }
+</style>
+</defs>
+<text
+class="title"
+x="369.28"
+y="15.941406"
+text-anchor="middle"
+id="text1"
+style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:22px;line-height:normal;font-family:Arial, Helvetica, sans-serif">I can’t connect to the controller</text>
+<text
+class="subtitle"
+x="369.28"
+y="37.941406"
+text-anchor="middle"
+id="text2"
+style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;line-height:normal;font-family:Arial, Helvetica, sans-serif">Diagnose from BotUI → About → WiFi line</text>
+<!-- Start -->
+<rect
+class="terminal"
+x="229.28"
+y="63.941406"
+width="280"
+height="54"
+id="rect2" />
+<text
+class="terminalText"
+x="369.28"
+y="86.941406"
+text-anchor="middle"
+id="text3"
+style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:13.5px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+x="369.28"
+dy="0"
+id="tspan2">Problem:</tspan><tspan
+x="369.28"
+dy="17"
+id="tspan3">computer won’t connect</tspan></text>
+<line
+class="line"
+x1="369.28"
+y1="117.94141"
+x2="369.28"
+y2="147.94141"
+id="line3" />
+<rect
+class="action"
+x="199.28"
+y="147.94141"
+width="340"
+height="76"
+id="rect3" />
+<text
+class="text"
+x="369.28"
+y="172.94141"
+text-anchor="middle"
+id="text6"
+style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.5px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+x="369.28"
+dy="0"
+id="tspan4">Open BotUI About page</tspan><tspan
+x="369.28"
+dy="18"
+id="tspan5">Check whether SSID and IP Address</tspan><tspan
+x="369.28"
+dy="18"
+id="tspan6">are displayed on the WiFi line.</tspan></text>
+<line
+class="line"
+x1="369.28"
+y1="223.94141"
+x2="369.28"
+y2="257.94141"
+id="line6" />
+<!-- Decision -->
+<polygon
+class="decision"
+points="390,436 240,356 390,276 540,356 "
+id="polygon6"
+transform="translate(-20.719999,-18.058594)" />
+<text
+class="text"
+x="369.28"
+y="323.94141"
+text-anchor="middle"
+id="text8"
+style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.5px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+x="369.28"
+dy="0"
+id="tspan7">Are SSID, Password,</tspan><tspan
+x="369.28"
+dy="18"
+id="tspan8">and IP Address shown?</tspan></text>
+<!-- Branch labels -->
+<line
+class="line"
+x1="219.28"
+y1="337.94141"
+x2="74.279999"
+y2="337.94141"
+id="line8" />
+<text
+class="label"
+x="143.28"
+y="323.94141"
+text-anchor="middle"
+id="text9"
+style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:12px;line-height:normal;font-family:Arial, Helvetica, sans-serif">No: empty SSID</text>
+<line
+class="line"
+x1="519.28003"
+y1="337.94141"
+x2="664.28003"
+y2="337.94141"
+id="line9" />
+<text
+class="label"
+x="595.28003"
+y="323.94141"
+text-anchor="middle"
+id="text10"
+style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:12px;line-height:normal;font-family:Arial, Helvetica, sans-serif">Yes: non-empty SSID</text>
+<!-- Left branch: Empty SSID -->
+<rect
+class="warn"
+x="4.2800007"
+y="367.94141"
+width="270"
+height="102"
+id="rect10" />
+<text
+class="text"
+x="139.28"
+y="392.94141"
+text-anchor="middle"
+id="text13"
+style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.5px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+x="139.28"
+dy="0"
+id="tspan10">Empty SSID / Password / IP</tspan><tspan
+x="139.28"
+dy="18"
+id="tspan11">Known issue on 31.0.0–31.1.2.</tspan><tspan
+x="139.28"
+dy="18"
+id="tspan12">Fixed in latest recommended</tspan><tspan
+x="139.28"
+dy="18"
+id="tspan13">version: 31.2.0.</tspan></text>
+<line
+class="line"
+x1="139.28"
+y1="469.94141"
+x2="139.28"
+y2="503.94141"
+id="line13" />
+<polygon
+class="decision"
+points="160,650 45,586 160,522 275,586 "
+id="polygon13"
+transform="translate(-20.719999,-18.058594)" />
+<text
+class="text"
+x="139.28"
+y="561.94141"
+text-anchor="middle"
+id="text15"
+style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.5px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+x="139.28"
+dy="0"
+id="tspan14">Can you update</tspan><tspan
+x="139.28"
+dy="18"
+id="tspan15">now?</tspan></text>
+<line
+class="line"
+x1="139.28"
+y1="631.94141"
+x2="139.28"
+y2="665.94141"
+id="line15" />
+<text
+class="label"
+x="160.28"
+y="653.94141"
+id="text16"
+style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:12px;line-height:normal;font-family:Arial, Helvetica, sans-serif">Yes</text>
+<rect
+class="fix"
+x="19.280001"
+y="665.94141"
+width="240"
+height="74"
+id="rect16" />
+<text
+class="text"
+x="139.28"
+y="691.94141"
+text-anchor="middle"
+id="text18"
+style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.5px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+x="139.28"
+dy="0"
+id="tspan16">Update firmware using</tspan><tspan
+x="139.28"
+dy="18"
+id="tspan17">the Wombat update instructions.</tspan><tspan
+x="139.28"
+dy="18"
+id="tspan18">Permanent fix.</tspan></text>
+<line
+class="line"
+x1="139.28"
+y1="739.94141"
+x2="139.28"
+y2="769.94141"
+id="line18" />
+<rect
+class="terminal"
+x="49.279999"
+y="769.94141"
+width="180"
+height="50"
+id="rect18" />
+<text
+class="terminalText"
+x="139.28"
+y="798.94141"
+text-anchor="middle"
+id="text19"
+style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:13.5px;line-height:normal;font-family:Arial, Helvetica, sans-serif">Try connecting again</text>
+<line
+class="line"
+x1="24.280001"
+y1="567.94141"
+x2="1.2800007"
+y2="567.94141"
+id="line19" />
+<line
+class="lineNoArrow"
+x1="1.2800007"
+y1="567.94141"
+x2="1.2800007"
+y2="853.94141"
+id="line20" />
+<line
+class="line"
+x1="1.2800007"
+y1="853.94141"
+x2="19.280001"
+y2="853.94141"
+id="line21" />
+<text
+class="label"
+x="13.280001"
+y="555.94141"
+id="text21"
+style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:12px;line-height:normal;font-family:Arial, Helvetica, sans-serif">No</text>
+<rect
+class="action"
+x="19.280001"
+y="839.94141"
+width="270"
+height="174"
+id="rect21" />
+<text
+class="text"
+x="154.28"
+y="865.94141"
+text-anchor="middle"
+id="text27"
+style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.5px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+x="154.28"
+dy="0"
+id="tspan21">Temporary network re-enable</tspan><tspan
+x="154.28"
+dy="21"
+id="tspan22">Settings → Hide UI</tspan><tspan
+x="154.28"
+dy="18"
+id="tspan23">Tap red “X” icon</tspan><tspan
+x="154.28"
+dy="18"
+id="tspan24">Tap “Enable Network”</tspan><tspan
+x="154.28"
+dy="18"
+id="tspan25">Select network matching</tspan><tspan
+x="154.28"
+dy="18"
+id="tspan26">controller serial number</tspan><tspan
+x="154.28"
+dy="18"
+id="tspan27">Return to BotUI → About</tspan></text>
+<line
+class="line"
+x1="154.28"
+y1="1013.9414"
+x2="154.28"
+y2="1045.9414"
+id="line27" />
+<rect
+class="warn"
+x="21.280001"
+y="1045.9414"
+width="266"
+height="82"
+id="rect27" />
+<text
+class="text"
+x="154.28"
+y="1071.9414"
+text-anchor="middle"
+id="text30"
+style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.5px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+x="154.28"
+dy="0"
+id="tspan28">Network info should appear.</tspan><tspan
+x="154.28"
+dy="18"
+id="tspan29">This is temporary and will</tspan><tspan
+x="154.28"
+dy="18"
+id="tspan30">almost certainly break again.</tspan></text>
+<line
+class="line"
+x1="154.28"
+y1="1127.9414"
+x2="154.28"
+y2="1161.9414"
+id="line30" />
+<rect
+class="fix"
+x="34.279999"
+y="1161.9414"
+width="240"
+height="72"
+id="rect30" />
+<text
+class="text"
+x="154.28"
+y="1187.9414"
+text-anchor="middle"
+id="text33"
+style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.5px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+x="154.28"
+dy="0"
+id="tspan31">Recommended:</tspan><tspan
+x="154.28"
+dy="18"
+id="tspan32">update to latest version</tspan><tspan
+x="154.28"
+dy="18"
+id="tspan33">31.2.0 when possible.</tspan></text>
+<!-- Right branch: Non-empty SSID -->
+<rect
+class="action"
+x="464.28"
+y="367.94141"
+width="270"
+height="80"
+id="rect33" />
+<text
+class="text"
+x="599.28003"
+y="393.94141"
+text-anchor="middle"
+id="text36"
+style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.5px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+x="599.28003"
+dy="0"
+id="tspan34">Computer must be connected</tspan><tspan
+x="599.28003"
+dy="18"
+id="tspan35">to the controller’s network.</tspan><tspan
+x="599.28003"
+dy="18"
+id="tspan36">Verify the WiFi network first.</tspan></text>
+<line
+class="line"
+x1="599.28003"
+y1="447.94141"
+x2="599.28003"
+y2="481.94141"
+id="line36" />
+<rect
+class="action"
+x="464.28"
+y="481.94141"
+width="270"
+height="86"
+id="rect36" />
+<text
+class="text"
+x="599.28003"
+y="506.94141"
+text-anchor="middle"
+id="text39"
+style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.5px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+x="599.28003"
+dy="0"
+id="tspan37">Visit the exact address:</tspan><tspan
+x="599.28003"
+dy="20"
+id="tspan38">displayed IP + colon + port</tspan><tspan
+x="599.28003"
+dy="20"
+id="tspan39">Example: 192.168.125.1:8888</tspan></text>
+<line
+class="line"
+x1="599.28003"
+y1="567.94141"
+x2="599.28003"
+y2="601.94141"
+id="line39" />
+<polygon
+class="decision"
+points="620,764 495,692 620,620 745,692 "
+id="polygon39"
+transform="translate(-20.719999,-18.058594)" />
+<text
+class="text"
+x="599.28003"
+y="658.94141"
+text-anchor="middle"
+id="text42"
+style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.5px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+x="599.28003"
+dy="0"
+id="tspan40">Is IP non-empty</tspan><tspan
+x="599.28003"
+dy="18"
+id="tspan41">and not</tspan><tspan
+x="599.28003"
+dy="18"
+id="tspan42">192.168.125.1?</tspan></text>
+<line
+class="line"
+x1="474.28"
+y1="673.94141"
+x2="364.28"
+y2="673.94141"
+id="line42" />
+<text
+class="label"
+x="417.28"
+y="659.94141"
+text-anchor="middle"
+id="text43"
+style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:12px;line-height:normal;font-family:Arial, Helvetica, sans-serif">Yes</text>
+<rect
+class="fix"
+x="324.28"
+y="631.94141"
+width="120"
+height="84"
+id="rect43" />
+<text
+class="text"
+x="384.28"
+y="656.94141"
+text-anchor="middle"
+id="text45"
+style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.5px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+x="384.28"
+dy="0"
+id="tspan43">Ethernet or</tspan><tspan
+x="384.28"
+dy="18"
+id="tspan44">client mode:</tspan><tspan
+x="384.28"
+dy="18"
+id="tspan45">fix network</tspan></text>
+<line
+class="line"
+x1="384.28"
+y1="715.94141"
+x2="384.28"
+y2="765.94141"
+id="line45" />
+<rect
+class="action"
+x="299.28"
+y="765.94141"
+width="180"
+height="110"
+id="rect45" />
+<text
+class="text"
+x="389.28"
+y="791.94141"
+text-anchor="middle"
+id="text49"
+style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.5px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+x="389.28"
+dy="0"
+id="tspan46">Unplug unused</tspan><tspan
+x="389.28"
+dy="18"
+id="tspan47">ethernet cables.</tspan><tspan
+x="389.28"
+dy="21"
+id="tspan48">Settings → Advanced</tspan><tspan
+x="389.28"
+dy="18"
+id="tspan49">→ Network → AP Mode</tspan></text>
+<line
+class="lineNoArrow"
+x1="389.28"
+y1="875.94141"
+x2="389.28"
+y2="909.94141"
+id="line49" />
+<line
+class="lineNoArrow"
+x1="389.28"
+y1="909.94141"
+x2="599.28003"
+y2="909.94141"
+id="line50" />
+<line
+class="line"
+x1="599.28003"
+y1="745.94141"
+x2="599.28003"
+y2="909.94141"
+id="line51" />
+<text
+class="label"
+x="623.28003"
+y="773.94141"
+id="text51"
+style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:12px;line-height:normal;font-family:Arial, Helvetica, sans-serif">No</text>
+<rect
+class="action"
+x="464.28"
+y="909.94141"
+width="270"
+height="92"
+id="rect51" />
+<text
+class="text"
+x="599.28003"
+y="935.94141"
+text-anchor="middle"
+id="text53"
+style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.5px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+x="599.28003"
+dy="0"
+id="tspan51">If WiFi and address are correct</tspan><tspan
+x="599.28003"
+dy="18"
+id="tspan52">but browser is blank, suspect</tspan><tspan
+x="599.28003"
+dy="18"
+id="tspan53">signal congestion.</tspan></text>
+<line
+class="line"
+x1="599.28003"
+y1="1001.9414"
+x2="599.28003"
+y2="1035.9414"
+id="line53" />
+<rect
+class="fix"
+x="464.28"
+y="1035.9414"
+width="270"
+height="92"
+id="rect53" />
+<text
+class="text"
+x="599.28003"
+y="1061.9414"
+text-anchor="middle"
+id="text56"
+style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.5px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+x="599.28003"
+dy="0"
+id="tspan54">Move to a less crowded room</tspan><tspan
+x="599.28003"
+dy="18"
+id="tspan55">or step outside to load the IDE.</tspan><tspan
+x="599.28003"
+dy="18"
+id="tspan56">Then update firmware permanently.</tspan></text>
+<line
+class="line"
+x1="599.28003"
+y1="1127.9414"
+x2="599.28003"
+y2="1161.9414"
+id="line56" />
+<polygon
+class="decision"
+points="620,1320 495,1250 620,1180 745,1250 "
+id="polygon56"
+transform="translate(-20.719999,-18.058594)" />
+<text
+class="text"
+x="599.28003"
+y="1217.9414"
+text-anchor="middle"
+id="text59"
+style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.5px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+x="599.28003"
+dy="0"
+id="tspan57">School/company</tspan><tspan
+x="599.28003"
+dy="18"
+id="tspan58">managed device?</tspan><tspan
+x="599.28003"
+dy="18"
+id="tspan59">Test phone.</tspan></text>
+<line
+class="line"
+x1="474.28"
+y1="1231.9414"
+x2="349.28"
+y2="1231.9414"
+id="line59" />
+<text
+class="label"
+x="488.40973"
+y="1187.9523"
+text-anchor="middle"
+id="text60"
+style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:12px;line-height:normal;font-family:Arial, Helvetica, sans-serif">Works on phone</text>
+<rect
+class="warn"
+x="294.28"
+y="1189.9414"
+width="150"
+height="84"
+id="rect60" />
+<text
+class="text"
+x="369.28"
+y="1215.9414"
+text-anchor="middle"
+id="text62"
+style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.5px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+x="369.28"
+dy="0"
+id="tspan60">Request IT to</tspan><tspan
+x="369.28"
+dy="18"
+id="tspan61">unblock the</tspan><tspan
+x="369.28"
+dy="18"
+id="tspan62">controller IP.</tspan></text>
+<line
+class="line"
+x1="599.28003"
+y1="1301.9414"
+x2="599.28003"
+y2="1335.9414"
+id="line62" />
+<text
+class="label"
+x="624.28003"
+y="1321.9414"
+id="text63"
+style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:12px;line-height:normal;font-family:Arial, Helvetica, sans-serif">No / unsure</text>
+<rect
+class="fix"
+x="464.28"
+y="1335.9414"
+width="270"
+height="58"
+id="rect63" />
+<text
+class="text"
+x="599.28003"
+y="1360.9414"
+text-anchor="middle"
+id="text64"
+style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.5px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+x="599.28003"
+dy="0"
+id="tspan63">If still unresolved:</tspan><tspan
+x="599.28003"
+dy="18"
+id="tspan64">update firmware if not current.</tspan></text>
+<!-- Cross-link from IT block to update -->
+<path
+class="dash"
+d="m 369.28,1273.9414 c 0,78 85,91 95,91"
+id="path64" />
+</svg>
