@@ -21,7 +21,3 @@ KIPR can fix servo ports, so {{< support_email_callout >}}
 
 If it is a motor or sensor port, try using another, working port.
 KIPR cannot fix individual motor or sensor ports, so such a repair would require a ~$300 board replacement.
-
-## Diagnosing the color camera
-
-TODO

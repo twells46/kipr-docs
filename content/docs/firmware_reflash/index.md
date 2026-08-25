@@ -29,7 +29,7 @@ description = 'Instructions for reinstalling the KIPR controller operating syste
 
 ## What is an OS image?
 
-An operating system image is a file that contains all of the software needed to run the controller.
+An operating system image is a file that contains all the software needed to run the controller.
 
 KIPR provides this file with WombatOS and the required controller software already installed. Writing the image to the controller's microSD card restores the controller to a clean, known state, similar to factory-resetting a phone.
 

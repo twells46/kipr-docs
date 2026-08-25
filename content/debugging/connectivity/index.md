@@ -36,7 +36,7 @@ Unplug any ethernet cables from the controller, then go to *Settings > Advanced 
 
 If you have connected to the correct network and the address is correct, but the browser simply displays a blank screen, you may be affected by signal congestion.
 Try moving to a less crowded room or even stepping outside to allow the IDE to load.
-You can permanently solve this problem by updating the the latest version with the [instructions here](https://www.kipr.org/kipr/hardware-software/kipr-wombat-firmware).
+You can permanently solve this problem by updating the latest version with the [instructions here](https://www.kipr.org/kipr/hardware-software/kipr-wombat-firmware).
 
 Finally, if you are on a device managed by your school or company, they may have blocked the IP address.
 Verify by accessing the IDE on a personal device like your phone.
@@ -45,9 +45,9 @@ If it works on your phone, you'll need to submit a request to them to unblock th
 
 ## Empty SSID
 
-If the *SSID*, *Password*, and *IP Address* lines in the about page are empty as in the image above, there are a couple fixes.
+If the *SSID*, *Password*, and *IP Address* lines in the about page are empty as in the image above, there are a couple of possible fixes.
 
-This is a known issue on versions 31.0.0-31.1.2 and is fixed on the latest version.
+This is a known issue on versions 31.0.0–31.1.2 and is fixed on the latest version.
 If you have time to update, that is the recommended, permanent solution.
 Refer to the [update instructions](https://www.kipr.org/kipr/hardware-software/kipr-wombat-firmware).
 

@@ -1,0 +1,17 @@
+{
+  "build": {
+    "dockerfile": "../Dockerfile",
+    "target": "hugo_dev"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "elijah-potter.harper"
+      ]
+    }
+  },
+  "forwardPorts": [1313],
+  "features": {
+      "ghcr.io/cirolosapio/devcontainers-features/alpine-gpg:0": {}
+  }
+}

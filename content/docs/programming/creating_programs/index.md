@@ -1,5 +1,4 @@
 +++
-draft = true
 title = 'Create a robot program'
 linkTitle = 'Create a program'
 description = 'Create a new robot program and understand where its files belong.'

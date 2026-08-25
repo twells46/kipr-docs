@@ -91,7 +91,7 @@ Requirements:
 1. Click the **+** dropdown.
 1. Click **Upload Project**.
 1. Click the **Select Language** dropdown.
-1. Select your langauge (in this example, C).
+1. Select your language (in this example, C).
 1. Click **Choose Folder** and choose the folder you downloaded during the backup phase.
 1. Click **Upload Project**.
 

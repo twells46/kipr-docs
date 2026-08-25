@@ -1,8 +1,8 @@
 +++
-draft = true
 title = 'Getting started'
 linkTitle = 'Getting started'
 description = 'Prepare your environment and verify that the basic toolchain works.'
+draft = true
 +++
 
 ## Install the KIPR software
