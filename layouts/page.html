@@ -14,9 +14,10 @@
       {{ end }}
 
       {{ if (in .TableOfContents "<li>") }}
-        <nav aria-label="On this page">
-          {{ .TableOfContents }}
-        </nav>
+        <div class="page-toc">
+          <p id="on-this-page">On this page</p>
+          {{ replace .TableOfContents "<nav id=\"TableOfContents\">" "<nav id=\"TableOfContents\" aria-labelledby=\"on-this-page\">" | safeHTML }}
+        </div>
       {{ end }}
 
       {{ .Content }}

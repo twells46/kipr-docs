@@ -1,7 +1,11 @@
 {{ with site.GetPage "/" }}
-  <nav aria-label="Site navigation">
-    <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+  <details class="site-nav">
+    <summary>Browse documentation</summary>
 
-    {{ partial "sidebar-nav-children.html" (dict "section" . "current" $) }}
-  </nav>
+    <nav aria-label="Site navigation">
+      <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+
+      {{ partial "sidebar-nav-children.html" (dict "section" . "current" $) }}
+    </nav>
+  </details>
 {{ end }}
