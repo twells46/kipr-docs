@@ -12,7 +12,7 @@ To distinguish, turn your controller's power switch to on and look for the red l
 
 ![Image of KIPR controller with red power indicator on](red_light.webp)
 
-## Red light on
+## Red Light On
 
 If the red light is on, the board is properly receiving power.
 
@@ -22,7 +22,7 @@ If the red light is on, the board is properly receiving power.
 If this doesn't fix the problem, then it is most likely an issue with the screen hardware.
 In this case, {{< support_email_callout >}}
 
-## Red light off
+## Red Light Off
 
 Try a fully charged battery.
 You can check the charge level by the lights on the charger included with your kit.

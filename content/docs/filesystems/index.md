@@ -4,7 +4,7 @@ description = 'Throughout this site, we often mention the need for a "FAT32 file
 +++
 
 
-## What is a Filesystem?
+## What Is a Filesystem?
 
 Think about organizing paper files in a filing cabinet.
 You wouldn't just toss papers wherever they fit, would you? You'd use folders, label drawers, and structure your system.

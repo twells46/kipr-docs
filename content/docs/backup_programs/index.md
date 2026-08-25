@@ -5,7 +5,7 @@ description = 'Instructions for backing up programs stored on the KIPR controlle
 
 ## Method 1: USB
 
-This is the simplest method and is the KIPR recommended way to backup and restore all of your programs.
+This is the simplest method and is the KIPR recommended way to back up and restore all of your programs.
 
 Requirements:
 
@@ -55,7 +55,7 @@ Requirements:
 
 ### Backup
 
-1. Right click on the user in the browser.
+1. Right-click on the user in the browser.
 1. Click **Download User**.
 1. Click **Yes** on the popup confirmation.
 
@@ -80,7 +80,7 @@ Requirements:
 
 ### Backup
 
-1. Right click on the project in the browser.
+1. Right-click on the project in the browser.
 1. Click **Download Project**.
 1. Click **Yes** on the popup confirmation.
 

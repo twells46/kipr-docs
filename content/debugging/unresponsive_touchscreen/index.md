@@ -7,19 +7,19 @@ description = 'The touchscreen is not responding to your inputs'
 
 This is a fairly common issue which can have a variety of causes.
 
-## Overtightened case
+## Overtightened Case
 
 Sometimes, if the top case is too tight, the touchscreen registers the case itself as a touch and becomes unresponsive to user input.
 
 **Solution:**
 
-Loosen the four case screws by 3-4 turns.
+Loosen the four case screws by 3–4 turns.
 Do not loosen them too much as opening the case will void your warranty.
 
 ## Overloaded Wombat
 
 If it receives too many inputs too fast, BotUI can become overloaded and unresponsive.
-This is exacerbated on certain versions of WombatOS in areas with a large number of Wi-Fi signals.
+This is exacerbated on certain versions of WombatOS in areas with a large number of WiFi signals.
 
 **Solution:**
 
@@ -28,7 +28,7 @@ If this is the problem, it will eventually sort itself out and become responsive
 You can also check the [WombatOS page](https://www.kipr.org/kipr/hardware-software/kipr-wombat-firmware) and confirm that you are running current firmware.
 The examples on this site currently use WombatOS {{< recommended_wombatos_version >}} as their tested version reference.
 
-## Screen configuration
+## Screen Configuration
 
 BotUI includes a tool to rotate the screen when your Wombat is mounted upside down or sideways on a robot.
 Under some circumstances, this tool can create a bogus screen configuration which prevents the touchscreen from registering user input.

@@ -5,3 +5,6 @@ TextEdit
 OS
 Balena
 microSD
+WiFi
+ethernet
+wombatos

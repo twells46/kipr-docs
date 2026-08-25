@@ -7,7 +7,7 @@ Try a known working *x* in the port.
 If it works, the *x* is broken, use a different one.
 If it doesn't the port is broken, use a different one.
 
-## Diagnosing motors, servos, and sensors
+## Diagnosing Motors, Servos, and Sensors
 
 The first step is to determine if the failure is in the peripheral or the port on the controller.
 Try a known working device in the same port as the one that isn't working.

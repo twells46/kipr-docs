@@ -8,7 +8,7 @@ description = 'Instructions for reinstalling the KIPR controller operating syste
 >
 > Before continuing, [back up any programs you want to keep](/docs/backup_programs/).
 
-## Quick reference
+## Quick Reference
 
 1. Back up any programs you want to keep.
 2. Download and install [Balena Etcher](https://etcher.balena.io/).
@@ -27,7 +27,7 @@ description = 'Instructions for reinstalling the KIPR controller operating syste
 > Writing the image erases everything on the microSD card. Verify that the selected target is the controller's card before selecting **Flash**.
 
 
-## What is an OS image?
+## What Is an OS Image?
 
 An operating system image is a file that contains all the software needed to run the controller.
 
@@ -35,7 +35,7 @@ KIPR provides this file with WombatOS and the required controller software alrea
 
 The image file uses the `.img` extension.
 
-## What you need
+## What You Need
 
 You will need:
 
@@ -48,13 +48,13 @@ You will need:
 
 The microSD card is already installed inside the controller.
 
-## Before you begin
+## Before You Begin
 
 Save any programs you want to keep somewhere other than the controller.
 
 During this process, your computer may display a message asking whether you want to format, initialize, repair, or erase the microSD card. Cancel or close that message. Do not allow the computer to format the card.
 
-## Download the required files
+## Download the Required Files
 
 Download and install [Balena Etcher](https://etcher.balena.io/). Balena Etcher is a free program used to write OS images to SD cards.
 
@@ -62,7 +62,7 @@ Download the [WombatOS 31.2.0 image](https://files.kipr.org/wombat/Wombat_v31.2.
 
 If the downloaded image is in a `.zip` file, extract it before continuing. After extraction, you should have a file ending in `.img`.
 
-## Remove the microSD card
+## Remove the microSD Card
 
 Turn off the controller and disconnect its power cable.
 
@@ -70,7 +70,7 @@ Turn the controller over. Use a screwdriver to remove the microSD card cover fro
 
 Carefully press or pull the microSD card out of its slot. Insert the card into the microSD card reader, then connect the reader to your computer.
 
-## Write the image
+## Write the Image
 
 Open Balena Etcher.
 
@@ -87,7 +87,7 @@ Select **Flash** and approve any permission prompts from your computer.
 
 Wait for Balena Etcher to finish writing and verifying the image. Do not remove the card or disconnect the card reader while this is in progress.
 
-## Reinstall the microSD card
+## Reinstall the microSD Card
 
 When Balena Etcher reports that the process is complete, safely eject the microSD card from your computer.
 
