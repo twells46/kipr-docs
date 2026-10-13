@@ -1,0 +1,31 @@
+{{/* Fragments nests h2s under a placeholder heading with no ID when the content has no h1. */}}
+{{ $headings := slice }}
+{{ range .Fragments.Headings }}
+  {{ if not .ID }}
+    {{ range .Headings }}{{ $headings = $headings | append . }}{{ end }}
+  {{ else }}
+    {{ $headings = $headings | append . }}
+  {{ end }}
+{{ end }}
+
+{{ with $headings }}
+  <nav class="page-toc" aria-labelledby="on-this-page">
+    <p id="on-this-page">On this page</p>
+
+    <ul>
+      {{ range . }}
+        <li>
+          <a href="#{{ .ID }}">{{ .Title }}</a>
+
+          {{ with .Headings }}
+            <ul>
+              {{ range . }}
+                <li><a href="#{{ .ID }}">{{ .Title }}</a></li>
+              {{ end }}
+            </ul>
+          {{ end }}
+        </li>
+      {{ end }}
+    </ul>
+  </nav>
+{{ end }}

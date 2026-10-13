@@ -1,6 +1,7 @@
 +++
 title = 'Debugging'
-description = 'Troubleshooting steps for common KIPR controller and programming issues.'
+description = 'Troubleshooting steps for common controller and programming problems.'
 +++
 
-Each section is titled around problems common to KIPR controllers and programming interfaces.
+Each page is named after a symptom.
+Pick the one that best matches what you are seeing.

@@ -1,26 +1,5 @@
 {{ define "main" }}
-  <div class="content-shell">
-    <aside>
-      {{ partial "sidebar-nav.html" . }}
-    </aside>
+  {{ partial "toc.html" . }}
 
-    <article>
-      {{ partial "breadcrumbs.html" . }}
-
-      <h1>{{ .Title }}</h1>
-
-      {{ with .Description }}
-        <p>{{ . }}</p>
-      {{ end }}
-
-      {{ if (in .TableOfContents "<li>") }}
-        <div class="page-toc">
-          <p id="on-this-page">On this page</p>
-          {{ replace .TableOfContents "<nav id=\"TableOfContents\">" "<nav id=\"TableOfContents\" aria-labelledby=\"on-this-page\">" | safeHTML }}
-        </div>
-      {{ end }}
-
-      {{ .Content }}
-    </article>
-  </div>
+  {{ .Content }}
 {{ end }}

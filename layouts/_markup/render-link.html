@@ -1,0 +1,13 @@
+{{- /* Resolve internal links to pages or page resources, and fail the build on broken ones. */ -}}
+{{- $url := urls.Parse .Destination -}}
+{{- $href := .Destination -}}
+{{- if and (not $url.IsAbs) $url.Path -}}
+  {{- with or (.PageInner.GetPage $url.Path) (.PageInner.Resources.Get $url.Path) -}}
+    {{- $href = .RelPermalink -}}
+    {{- with $url.Fragment }}{{ $href = printf "%s#%s" $href . }}{{ end -}}
+  {{- else -}}
+    {{- errorf "Broken internal link %q in %s" .Destination .PageInner.File.Path -}}
+  {{- end -}}
+{{- end -}}
+<a href="{{ $href }}"{{ with .Title }} title="{{ . }}"{{ end }}>{{ .Text }}</a>
+{{- /**/ -}}

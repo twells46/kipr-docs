@@ -1,11 +1,13 @@
 +++
 title = 'KIPR Docs'
-description = 'Documentation for KIPR software, hardware, and classroom workflows.'
+description = 'Documentation and troubleshooting guides for the KIPR Wombat controller.'
 +++
 
-## Start Here
+## Start here
 
-There is a notation commonly used throughout this site to describe navigating the KIPR controller UI.
-Instead of saying "Touch Settings, then Hide UI", we abbreviate it as *Settings > Hide UI*.
+This site uses a short notation to describe navigating the controller's interface.
+Instead of saying "Tap Settings, then Hide UI", we abbreviate it as *Settings > Hide UI*.
 It may help to think of the ">" as an arrow rather than the "greater than" symbol.
-These directions will always be italicized.
+These paths are always italicized.
+
+When a step refers to a single button, its name is in bold, like **Backup**.

@@ -1,5 +1,5 @@
 # Task Completion
 
-- Run `hugo` after template, content, or asset changes to verify the static build.
+- Run `just check` after template, content, or asset changes.
 - Check `git status --short` to identify only intended file changes before final response.
-- No separate formatter, linter, or test runner is configured in the repo.
+- No spell checker or external link checker is wired into `just check` yet (see `TODO.md`).
