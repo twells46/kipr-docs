@@ -1,7 +1,7 @@
 +++
 title = 'Documentation'
 linkTitle = 'Docs'
-description = 'Start here for installation, programming, and reference material.'
+description = 'How-to guides and reference material for the KIPR Wombat controller.'
 +++
 
-The documentation is organized around tasks. Each section should answer one practical question and then point to the next relevant page.
+Each page covers one task from start to finish.

@@ -1,6 +1,6 @@
 # Suggested Commands
 
-- `hugo` - build the static site into `public/`.
-- `hugo server --bind 127.0.0.1 --port 1313` - run a local preview server.
-- `git status --short` - check changed files before and after edits.
+- `just check` - build in memory, failing on warnings and broken links/images.
+- `just serve` - run a local preview server on port 1313.
+- `just build` - build the static site into `public/`.
 - `rg <pattern>` - preferred project search command.

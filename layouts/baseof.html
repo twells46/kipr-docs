@@ -2,14 +2,29 @@
 <html lang="{{ site.Language.Locale }}">
 <head>
   {{ partial "head.html" . }}
-  <link rel="icon" href="/favicon.webp" type="image/webp">
 </head>
 <body>
 
   {{ partial "site-header.html" . }}
 
   <main id="main">
-    {{ block "main" . }}{{ end }}
+    <div class="content-shell">
+      <aside>
+        {{ partial "sidebar-nav.html" . }}
+      </aside>
+
+      <article>
+        {{ partial "breadcrumbs.html" . }}
+
+        <h1>{{ .Title }}</h1>
+
+        {{ with .Description }}
+          <p>{{ . }}</p>
+        {{ end }}
+
+        {{ block "main" . }}{{ end }}
+      </article>
+    </div>
   </main>
 </body>
 </html>

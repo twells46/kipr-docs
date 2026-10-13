@@ -1,8 +1,9 @@
 build:
 	hugo build --ignoreCache --minify --cleanDestinationDir
 
-build-pilot:
-	hugo build --config hugo.toml,build-targets/pilot.toml --ignoreCache --minify --cleanDestinationDir
-
 serve:
 	hugo server --disableFastRender --noHTTPCache
+
+# Fails on warnings, broken internal links, missing images, and missing alt text.
+check:
+	hugo build --ignoreCache --renderToMemory --panicOnWarning --printPathWarnings --printUnusedTemplates

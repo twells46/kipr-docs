@@ -4,7 +4,10 @@
 
     <nav aria-label="Main navigation">
       {{ range site.Home.Sections.ByWeight }}
-        <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+        <a href="{{ .RelPermalink }}"
+          {{- if eq . $ }} aria-current="page"{{ else if .IsAncestor $ }} aria-current="true"{{ end }}>
+          {{- .LinkTitle -}}
+        </a>
       {{ end }}
     </nav>
   </div>

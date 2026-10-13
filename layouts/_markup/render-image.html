@@ -1,0 +1,15 @@
+{{- /* Resolve images from the page bundle, and fail the build on missing files or alt text. */ -}}
+{{- $url := urls.Parse .Destination -}}
+{{- $src := .Destination -}}
+{{- if not .PlainText -}}
+  {{- errorf "Image %q in %s has no alt text" .Destination .PageInner.File.Path -}}
+{{- end -}}
+{{- if not $url.IsAbs -}}
+  {{- with .PageInner.Resources.Get $url.Path -}}
+    {{- $src = .RelPermalink -}}
+  {{- else -}}
+    {{- errorf "Image %q in %s does not exist" .Destination .PageInner.File.Path -}}
+  {{- end -}}
+{{- end -}}
+<img src="{{ $src }}" alt="{{ .PlainText }}"{{ with .Title }} title="{{ . }}"{{ end }}>
+{{- /**/ -}}

@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="745.91455"
+   height="1175.7865"
+   viewBox="0 0 745.91455 1175.7865"
+   role="img"
+   aria-labelledby="title desc"
+   version="1.1"
+   id="svg55"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <title
+     id="title">Unresponsive touchscreen troubleshooting flowchart</title>
+  <desc
+     id="desc">A troubleshooting flowchart for an unresponsive Wombat touchscreen, followed by an advanced recovery procedure for restoring the default screen configuration.</desc>
+  <defs
+     id="defs1">
+    <style
+       id="style1">
+      .bg { fill: #ffffff; }
+      .frame { fill: #f8fafc; stroke: #334155; stroke-width: 1.5; }
+      .header { fill: #e2e8f0; stroke: #334155; stroke-width: 1.8; }
+      .start { fill: #e0f2fe; stroke: #0369a1; stroke-width: 2; }
+      .action { fill: #ffffff; stroke: #334155; stroke-width: 1.8; }
+      .decision { fill: #f8fafc; stroke: #334155; stroke-width: 2; }
+      .result { fill: #dcfce7; stroke: #166534; stroke-width: 1.8; }
+      .warning { fill: #fef3c7; stroke: #b45309; stroke-width: 1.6; }
+      .note { fill: #eff6ff; stroke: #1d4ed8; stroke-width: 1.4; }
+      .support { fill: #fee2e2; stroke: #b91c1c; stroke-width: 2; }
+      .panel { fill: #f8fafc; stroke: #334155; stroke-width: 1.8; }
+      .stepCircle { fill: #334155; }
+      .codebox { fill: #111827; stroke: #111827; stroke-width: 1; }
+      .titleText { font: 700 24px system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, Arial, sans-serif; fill: #0f172a; }
+      .subText { font: 400 14px system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, Arial, sans-serif; fill: #334155; }
+      .boxTitle { font: 700 15px system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, Arial, sans-serif; fill: #0f172a; }
+      .boxText { font: 400 14px system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, Arial, sans-serif; fill: #0f172a; }
+      .smallText { font: 400 12px system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, Arial, sans-serif; fill: #334155; }
+      .warnText { font: 400 12px system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, Arial, sans-serif; fill: #7c2d12; }
+      .supportText { font: 400 14px system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, Arial, sans-serif; fill: #7f1d1d; }
+      .resultText { font: 700 14px system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, Arial, sans-serif; fill: #166534; }
+      .labelText { font: 700 12px system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, Arial, sans-serif; fill: #475569; }
+      .codeText { font: 400 12px &quot;SFMono-Regular&quot;, Consolas, &quot;Liberation Mono&quot;, Menlo, monospace; fill: #f9fafb; }
+      .conn { stroke: #475569; stroke-width: 2.2; fill: none; }
+    </style>
+    <marker
+       id="arrow"
+       markerWidth="10"
+       markerHeight="10"
+       refX="7.5"
+       refY="5"
+       orient="auto"
+       markerUnits="strokeWidth">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#475569"
+         id="path1" />
+    </marker>
+  </defs>
+  <!-- Header -->
+  <rect
+     class="header"
+     x="16.685768"
+     y="0.89999962"
+     width="720"
+     height="88"
+     rx="14"
+     id="rect2" />
+  <text
+     class="titleText"
+     x="376.68576"
+     y="33.900002"
+     text-anchor="middle"
+     id="text2"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:24px;line-height:normal;font-family:system-ui, '-apple-system', 'Segoe UI', Roboto, Arial, sans-serif">Unresponsive touchscreen</text>
+  <text
+     class="subText"
+     x="376.68576"
+     y="59.900002"
+     text-anchor="middle"
+     id="text3"
+     style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:14px;line-height:normal;font-family:system-ui, '-apple-system', 'Segoe UI', Roboto, Arial, sans-serif">The touchscreen is not responding to your inputs</text>
+  <!-- Intro -->
+  <rect
+     class="frame"
+     x="0.75"
+     y="106.70829"
+     width="363.3324"
+     height="58.383377"
+     rx="6.6060452"
+     id="rect3" />
+  <text
+     class="boxText"
+     x="189.88528"
+     y="130.89999"
+     text-anchor="middle"
+     id="text4"
+     style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:14px;line-height:normal;font-family:system-ui, '-apple-system', 'Segoe UI', Roboto, Arial, sans-serif">Try the quick checks below in order.</text>
+  <text
+     class="smallText"
+     x="181.48538"
+     y="149.89999"
+     text-anchor="middle"
+     id="text5"
+     style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', 'Segoe UI', Roboto, Arial, sans-serif">Stop as soon as the touchscreen becomes responsive again.</text>
+  <!-- Start -->
+  <rect
+     class="start"
+     x="156.68576"
+     y="190.89999"
+     width="440"
+     height="52"
+     rx="18"
+     id="rect5" />
+  <text
+     class="boxTitle"
+     x="376.68576"
+     y="221.89999"
+     text-anchor="middle"
+     id="text6"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:15px;line-height:normal;font-family:system-ui, '-apple-system', 'Segoe UI', Roboto, Arial, sans-serif">Touchscreen does not respond</text>
+  <!-- Connector to Action 1 -->
+  <line
+     class="conn"
+     x1="376.68576"
+     y1="242.89999"
+     x2="376.68576"
+     y2="270.89999"
+     marker-end="url(#arrow)"
+     id="line6" />
+  <!-- Action 1 -->
+  <rect
+     class="action"
+     x="136.68576"
+     y="270.89999"
+     width="460"
+     height="70"
+     rx="14"
+     id="rect6" />
+  <text
+     class="boxTitle"
+     x="366.68576"
+     y="297.89999"
+     text-anchor="middle"
+     id="text7"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:15px;line-height:normal;font-family:system-ui, '-apple-system', 'Segoe UI', Roboto, Arial, sans-serif">Loosen each case screw by 3–4 turns</text>
+  <text
+     class="boxText"
+     x="366.68576"
+     y="318.89999"
+     text-anchor="middle"
+     id="text8"
+     style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:14px;line-height:normal;font-family:system-ui, '-apple-system', 'Segoe UI', Roboto, Arial, sans-serif">Then test the touchscreen again.</text>
+  <!-- Warranty callout -->
+  <rect
+     class="warning"
+     x="381.95776"
+     y="106.79613"
+     width="363.15674"
+     height="58.207752"
+     rx="9.0789165"
+     id="rect8" />
+  <text
+     class="boxTitle"
+     x="397.7861"
+     y="138.39975"
+     id="text9"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:15px;line-height:normal;font-family:system-ui, '-apple-system', 'Segoe UI', Roboto, Arial, sans-serif">Warranty note</text>
+  <text
+     class="warnText"
+     x="513.98657"
+     y="132.2002"
+     id="text10"
+     style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', 'Segoe UI', Roboto, Arial, sans-serif"><tspan
+       id="tspan56"
+       x="513.98657"
+       y="132.2002">Do not loosen the screws too much.</tspan><tspan
+       id="tspan57"
+       x="513.98657"
+       y="147.2002">Opening the case will void your warranty.</tspan></text>
+  <!-- Connector to Decision 1 -->
+  <line
+     class="conn"
+     x1="376.68576"
+     y1="340.89999"
+     x2="376.68576"
+     y2="380.81677"
+     marker-end="url(#arrow)"
+     id="line10" />
+  <!-- Decision 1 -->
+  <rect
+     class="decision"
+     x="181.70645"
+     y="382.82034"
+     width="343.6582"
+     height="57.996532"
+     rx="16.662209"
+     id="rect10" />
+  <text
+     class="boxTitle"
+     x="346.68576"
+     y="407.7999"
+     text-anchor="middle"
+     id="text11"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:15px;line-height:normal;font-family:system-ui, '-apple-system', 'Segoe UI', Roboto, Arial, sans-serif">Responsive now?</text>
+  <text
+     class="smallText"
+     x="346.68576"
+     y="426.7999"
+     text-anchor="middle"
+     id="text12"
+     style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', 'Segoe UI', Roboto, Arial, sans-serif">If the case was too tight, this often fixes it.</text>
+  <!-- Resolved 1 -->
+  <rect
+     class="result"
+     x="576.68579"
+     y="392.7999"
+     width="130"
+     height="38"
+     rx="19"
+     id="rect12" />
+  <text
+     class="resultText"
+     x="641.68579"
+     y="416.7999"
+     text-anchor="middle"
+     id="text13"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:14px;line-height:normal;font-family:system-ui, '-apple-system', 'Segoe UI', Roboto, Arial, sans-serif">Resolved</text>
+  <!-- Branch 1 -->
+  <line
+     class="conn"
+     x1="524.3858"
+     y1="410.37354"
+     x2="573.39899"
+     y2="410.37354"
+     marker-end="url(#arrow)"
+     id="line13" />
+  <text
+     class="labelText"
+     x="544.98541"
+     y="402.7999"
+     text-anchor="middle"
+     id="text14"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', 'Segoe UI', Roboto, Arial, sans-serif">Yes</text>
+  <text
+     class="labelText"
+     x="390.68576"
+     y="456.80038"
+     text-anchor="start"
+     id="text15"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', 'Segoe UI', Roboto, Arial, sans-serif">No</text>
+  <!-- To Action 2 -->
+  <line
+     class="conn"
+     x1="376.68576"
+     y1="440.7999"
+     x2="376.68576"
+     y2="482.80066"
+     marker-end="url(#arrow)"
+     id="line15" />
+  <!-- Action 2 -->
+  <rect
+     class="action"
+     x="136.68576"
+     y="482.80066"
+     width="460"
+     height="70"
+     rx="14"
+     id="rect15" />
+  <text
+     class="boxTitle"
+     x="366.68576"
+     y="509.80112"
+     text-anchor="middle"
+     id="text16"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:15px;line-height:normal;font-family:system-ui, '-apple-system', 'Segoe UI', Roboto, Arial, sans-serif">Stop touching the screen and wait 1–2 minutes</text>
+  <text
+     class="boxText"
+     x="366.68576"
+     y="530.80115"
+     text-anchor="middle"
+     id="text17"
+     style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:14px;line-height:normal;font-family:system-ui, '-apple-system', 'Segoe UI', Roboto, Arial, sans-serif">If BotUI is overloaded, it may recover on its own.</text>
+  <!-- Connector to Decision 2 -->
+  <line
+     class="conn"
+     x1="376.68576"
+     y1="552.80115"
+     x2="376.68576"
+     y2="582.80115"
+     marker-end="url(#arrow)"
+     id="line17" />
+  <!-- Decision 2 -->
+  <rect
+     class="decision"
+     x="172.20685"
+     y="582.82343"
+     width="353.14392"
+     height="57.968746"
+     rx="17.122122"
+     id="rect17" />
+  <text
+     class="boxTitle"
+     x="346.68576"
+     y="607.80115"
+     text-anchor="middle"
+     id="text18"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:15px;line-height:normal;font-family:system-ui, '-apple-system', 'Segoe UI', Roboto, Arial, sans-serif">Responsive now?</text>
+  <text
+     class="smallText"
+     x="346.68576"
+     y="626.80115"
+     text-anchor="middle"
+     id="text19"
+     style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', 'Segoe UI', Roboto, Arial, sans-serif">Too many fast inputs can temporarily make BotUI unresponsive.</text>
+  <!-- Resolved 2 -->
+  <rect
+     class="result"
+     x="576.68579"
+     y="592.80115"
+     width="130"
+     height="38"
+     rx="19"
+     id="rect19" />
+  <text
+     class="resultText"
+     x="641.68579"
+     y="616.80115"
+     text-anchor="middle"
+     id="text20"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:14px;line-height:normal;font-family:system-ui, '-apple-system', 'Segoe UI', Roboto, Arial, sans-serif">Resolved</text>
+  <!-- Branch 2 -->
+  <line
+     class="conn"
+     x1="524.3858"
+     y1="611.2832"
+     x2="573.39899"
+     y2="611.2832"
+     marker-end="url(#arrow)"
+     id="line20" />
+  <text
+     class="labelText"
+     x="544.98541"
+     y="602.80115"
+     text-anchor="middle"
+     id="text21"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', 'Segoe UI', Roboto, Arial, sans-serif">Yes</text>
+  <text
+     class="labelText"
+     x="390.68576"
+     y="656.80115"
+     text-anchor="start"
+     id="text22"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', 'Segoe UI', Roboto, Arial, sans-serif">No</text>
+  <!-- To Action 3 -->
+  <line
+     class="conn"
+     x1="376.68576"
+     y1="640.80115"
+     x2="376.68576"
+     y2="682.80115"
+     marker-end="url(#arrow)"
+     id="line22" />
+  <!-- Action 3 -->
+  <rect
+     class="action"
+     x="116.68577"
+     y="682.80115"
+     width="500"
+     height="84"
+     rx="14"
+     id="rect22" />
+  <text
+     class="boxTitle"
+     x="366.68576"
+     y="709.80115"
+     text-anchor="middle"
+     id="text23"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:15px;line-height:normal;font-family:system-ui, '-apple-system', 'Segoe UI', Roboto, Arial, sans-serif">Check your WombatOS version and update if needed</text>
+  <text
+     class="boxText"
+     x="366.68576"
+     y="730.80115"
+     text-anchor="middle"
+     id="text24"
+     style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:14px;line-height:normal;font-family:system-ui, '-apple-system', 'Segoe UI', Roboto, Arial, sans-serif"><tspan
+       id="tspan58"
+       x="366.68576"
+       y="730.80115">Wi-Fi-heavy environments can worsen this problem on some versions</tspan><tspan
+       id="tspan59"
+       x="366.68576"
+       y="748.30115">prior to 31.2.0.</tspan></text>
+  <!-- Connector to Decision 3 -->
+  <line
+     class="conn"
+     x1="376.68576"
+     y1="766.80115"
+     x2="376.68576"
+     y2="798.80115"
+     marker-end="url(#arrow)"
+     id="line25" />
+  <!-- Decision 3 -->
+  <rect
+     class="decision"
+     x="181.70645"
+     y="798.79645"
+     width="343.6582"
+     height="57.996532"
+     rx="16.662209"
+     id="rect25" />
+  <text
+     class="boxTitle"
+     x="346.68576"
+     y="823.80115"
+     text-anchor="middle"
+     id="text26"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:15px;line-height:normal;font-family:system-ui, '-apple-system', 'Segoe UI', Roboto, Arial, sans-serif">Responsive after updating?</text>
+  <text
+     class="smallText"
+     x="346.68576"
+     y="842.80115"
+     text-anchor="middle"
+     id="text27"
+     style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', 'Segoe UI', Roboto, Arial, sans-serif">Use the WombatOS page to confirm or update firmware.</text>
+  <!-- Resolved 3 -->
+  <rect
+     class="result"
+     x="576.68579"
+     y="808.80115"
+     width="130"
+     height="38"
+     rx="19"
+     id="rect27" />
+  <text
+     class="resultText"
+     x="641.68579"
+     y="832.80115"
+     text-anchor="middle"
+     id="text28"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:14px;line-height:normal;font-family:system-ui, '-apple-system', 'Segoe UI', Roboto, Arial, sans-serif">Resolved</text>
+  <!-- Branch 3 -->
+  <line
+     class="conn"
+     x1="524.3858"
+     y1="828.26465"
+     x2="573.39899"
+     y2="828.26465"
+     marker-end="url(#arrow)"
+     id="line28" />
+  <text
+     class="labelText"
+     x="544.98541"
+     y="818.80115"
+     text-anchor="middle"
+     id="text29"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', 'Segoe UI', Roboto, Arial, sans-serif">Yes</text>
+  <text
+     class="labelText"
+     x="390.68576"
+     y="872.80115"
+     text-anchor="start"
+     id="text30"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', 'Segoe UI', Roboto, Arial, sans-serif">No</text>
+  <!-- To Action 4 -->
+  <line
+     class="conn"
+     x1="376.68576"
+     y1="856.80115"
+     x2="376.68576"
+     y2="898.80115"
+     marker-end="url(#arrow)"
+     id="line30" />
+  <!-- Action 4 -->
+  <rect
+     class="action"
+     x="106.68577"
+     y="898.80115"
+     width="520"
+     height="82"
+     rx="14"
+     id="rect30" />
+  <text
+     class="boxTitle"
+     x="366.68576"
+     y="925.80115"
+     text-anchor="middle"
+     id="text31"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:15px;line-height:normal;font-family:system-ui, '-apple-system', 'Segoe UI', Roboto, Arial, sans-serif">Try screen-configuration recovery</text>
+  <text
+     class="boxText"
+     x="366.68576"
+     y="946.80072"
+     text-anchor="middle"
+     id="text32"
+     style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:14px;line-height:normal;font-family:system-ui, '-apple-system', 'Segoe UI', Roboto, Arial, sans-serif">Either reflash the Wombat after backing up your programs,</text>
+  <text
+     class="boxText"
+     x="366.68576"
+     y="965.80109"
+     text-anchor="middle"
+     id="text33"
+     style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:14px;line-height:normal;font-family:system-ui, '-apple-system', 'Segoe UI', Roboto, Arial, sans-serif">or use the advanced recovery procedure below.</text>
+  <!-- Connector to Decision 4 -->
+  <line
+     class="conn"
+     x1="376.68576"
+     y1="980.80072"
+     x2="376.68576"
+     y2="1010.8011"
+     marker-end="url(#arrow)"
+     id="line33" />
+  <!-- Decision 4 -->
+  <rect
+     class="decision"
+     x="181.70645"
+     y="1010.7844"
+     width="343.6582"
+     height="57.996532"
+     rx="16.662209"
+     id="rect33" />
+  <text
+     class="boxTitle"
+     x="346.68576"
+     y="1035.8011"
+     text-anchor="middle"
+     id="text34"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:15px;line-height:normal;font-family:system-ui, '-apple-system', 'Segoe UI', Roboto, Arial, sans-serif">Responsive after recovery?</text>
+  <text
+     class="smallText"
+     x="346.68576"
+     y="1054.8011"
+     text-anchor="middle"
+     id="text35"
+     style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', 'Segoe UI', Roboto, Arial, sans-serif">A bogus screen configuration can block touch input.</text>
+  <!-- Resolved 4 -->
+  <rect
+     class="result"
+     x="576.68579"
+     y="1020.8011"
+     width="130"
+     height="38"
+     rx="19"
+     id="rect35" />
+  <text
+     class="resultText"
+     x="641.68579"
+     y="1044.8011"
+     text-anchor="middle"
+     id="text36"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:14px;line-height:normal;font-family:system-ui, '-apple-system', 'Segoe UI', Roboto, Arial, sans-serif">Resolved</text>
+  <!-- Branch 4 -->
+  <line
+     class="conn"
+     x1="524.3858"
+     y1="1041.2279"
+     x2="573.39899"
+     y2="1041.2279"
+     marker-end="url(#arrow)"
+     id="line36" />
+  <text
+     class="labelText"
+     x="544.98541"
+     y="1030.8011"
+     text-anchor="middle"
+     id="text37"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', 'Segoe UI', Roboto, Arial, sans-serif">Yes</text>
+  <text
+     class="labelText"
+     x="390.68576"
+     y="1084.8011"
+     text-anchor="start"
+     id="text38"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:12px;line-height:normal;font-family:system-ui, '-apple-system', 'Segoe UI', Roboto, Arial, sans-serif">No</text>
+  <!-- To Support -->
+  <line
+     class="conn"
+     x1="376.68576"
+     y1="1068.8011"
+     x2="376.68576"
+     y2="1104.8011"
+     marker-end="url(#arrow)"
+     id="line38" />
+  <!-- Support -->
+  <rect
+     class="support"
+     x="140.2005"
+     y="1104.8163"
+     width="467.37027"
+     height="69.970276"
+     rx="18.546961"
+     id="rect38" />
+  <text
+     class="boxTitle"
+     x="376.68576"
+     y="1131.8011"
+     text-anchor="middle"
+     id="text39"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:15px;line-height:normal;font-family:system-ui, '-apple-system', 'Segoe UI', Roboto, Arial, sans-serif">Possible broken touchscreen</text>
+  <text
+     class="supportText"
+     x="376.68576"
+     y="1152.8011"
+     text-anchor="middle"
+     id="text40"
+     style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:14px;line-height:normal;font-family:system-ui, '-apple-system', 'Segoe UI', Roboto, Arial, sans-serif">Email support@kipr.org so the support team can create a repair ticket.</text>
+  <!-- Advanced recovery panel -->
+  <!-- Step 1 -->
+  <!-- Step 2 -->
+  <!-- Step 3 -->
+  <!-- Step 4 -->
+  <!-- Code box -->
+  <!-- Footer note -->
+</svg>

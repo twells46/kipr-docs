@@ -1,14 +1,14 @@
-baseURL = '/'
+baseURL = 'https://www.kipr.org/troubleshooting/'
 locale = 'en-us'
 title = 'KIPR Docs'
 disableKinds = ['rss', 'sitemap', 'taxonomy', 'term']
 
+[params]
+# Bump these on each WombatOS release; the shortcodes read them.
+wombatosVersion = '31.2.0'
+supportEmail = 'support@kipr.org'
+
 [markup.highlight]
-# emit CSS classes, not inline styles
+# emit CSS classes, not inline styles (styles live in assets/css/syntax.css)
 noClasses = false
 lineNos = false
-
-[markup.tableOfContents]
-startLevel = 2
-endLevel = 3
-

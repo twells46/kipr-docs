@@ -1,17 +1,31 @@
 {
   "build": {
     "dockerfile": "../Dockerfile",
-    "target": "hugo_dev"
+    "target": "dev"
   },
+  "forwardPorts": [1313],
+  "mounts": [
+    "source=claude-config,target=/home/code/.claude,type=volume",
+    "source=codex-config,target=/home/code/.codex,type=volume"
+  ],
+  // Agent sandboxes use bubblewrap, which Docker's default seccomp profile blocks;
+  // systempaths=unconfined lets it mount a fresh /proc.
+  "runArgs": [
+    "--security-opt", "seccomp=unconfined",
+    "--security-opt", "systempaths=unconfined"
+  ],
   "customizations": {
     "vscode": {
       "extensions": [
-        "elijah-potter.harper"
-      ]
+        "elijah-potter.harper",
+        "github.vscode-pull-request-github"
+      ],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "fish",
+        "terminal.integrated.profiles.linux": {
+          "fish": { "path": "/usr/bin/fish" }
+        }
+      }
     }
-  },
-  "forwardPorts": [1313],
-  "features": {
-      "ghcr.io/cirolosapio/devcontainers-features/alpine-gpg:0": {}
   }
 }
